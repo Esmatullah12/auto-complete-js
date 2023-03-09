@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Ubuntu-regular";
+    src: url(fonts/Ubuntu-Regular.ttf);
+}
+
+body{
+    margin: 0;
+    font-size: 16px;
+}
+
+.container{
+    font-size: 1.2rem;
+    width: 40%;
+    min-width: 400px;
+    margin: 30vh auto;
+    font-family: "Ubuntu-regular";
+}
+
+
+input{
+    font-size: 1.1rem;
+    font-family: "Ubuntu-regular";
+    padding-left: 0.5em;
+    width: 90%;
+    height: 40px;
+    margin-top: 15px;
+    border: 0.5px solid #434242;
+    box-shadow: 0.5px 0.5px 20px 2px #dadcde;
+    border-radius: 5px;
+
+}
+
+input::cue{
+    border: none;
+}
