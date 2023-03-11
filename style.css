@@ -30,6 +30,20 @@ input{
 
 }
 
-input::cue{
-    border: none;
+#auto-complete-result{
+    list-style: none;
+    padding-left: 0;
+    opacity: 0;
+}
+
+ul li{
+    margin-bottom: 0.6rem;
+}
+
+#auto-complete-result.visible{
+    opacity: 1;
+}
+
+ul li{
+    margin-bottom: 0.6rem;
 }
